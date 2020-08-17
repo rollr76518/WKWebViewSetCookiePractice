@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94CAB3C724EAC63C002AEC94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3C624EAC63C002AEC94 /* AppDelegate.swift */; };
+		94CAB3C924EAC63C002AEC94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3C824EAC63C002AEC94 /* SceneDelegate.swift */; };
+		94CAB3CB24EAC63C002AEC94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3CA24EAC63C002AEC94 /* ViewController.swift */; };
+		94CAB3CE24EAC63C002AEC94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CAB3CC24EAC63C002AEC94 /* Main.storyboard */; };
+		94CAB3D024EAC63C002AEC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CAB3CF24EAC63C002AEC94 /* Assets.xcassets */; };
+		94CAB3D324EAC63C002AEC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CAB3D124EAC63C002AEC94 /* LaunchScreen.storyboard */; };
+		94CAB3DE24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3DD24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94CAB3DA24EAC63D002AEC94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94CAB3BB24EAC63B002AEC94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94CAB3C224EAC63C002AEC94;
+			remoteInfo = WKWebViewSetCookiePractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94CAB3C324EAC63C002AEC94 /* WKWebViewSetCookiePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewSetCookiePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CAB3C624EAC63C002AEC94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94CAB3C824EAC63C002AEC94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		94CAB3CA24EAC63C002AEC94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94CAB3CD24EAC63C002AEC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94CAB3CF24EAC63C002AEC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94CAB3D224EAC63C002AEC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94CAB3D424EAC63C002AEC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CAB3D924EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewSetCookiePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94CAB3DD24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewSetCookiePracticeTests.swift; sourceTree = "<group>"; };
+		94CAB3DF24EAC63D002AEC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94CAB3C024EAC63C002AEC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CAB3D624EAC63D002AEC94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94CAB3BA24EAC63B002AEC94 = {
+			isa = PBXGroup;
+			children = (
+				94CAB3C524EAC63C002AEC94 /* WKWebViewSetCookiePractice */,
+				94CAB3DC24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests */,
+				94CAB3C424EAC63C002AEC94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94CAB3C424EAC63C002AEC94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94CAB3C324EAC63C002AEC94 /* WKWebViewSetCookiePractice.app */,
+				94CAB3D924EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94CAB3C524EAC63C002AEC94 /* WKWebViewSetCookiePractice */ = {
+			isa = PBXGroup;
+			children = (
+				94CAB3C624EAC63C002AEC94 /* AppDelegate.swift */,
+				94CAB3C824EAC63C002AEC94 /* SceneDelegate.swift */,
+				94CAB3CA24EAC63C002AEC94 /* ViewController.swift */,
+				94CAB3CC24EAC63C002AEC94 /* Main.storyboard */,
+				94CAB3CF24EAC63C002AEC94 /* Assets.xcassets */,
+				94CAB3D124EAC63C002AEC94 /* LaunchScreen.storyboard */,
+				94CAB3D424EAC63C002AEC94 /* Info.plist */,
+			);
+			path = WKWebViewSetCookiePractice;
+			sourceTree = "<group>";
+		};
+		94CAB3DC24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				94CAB3DD24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift */,
+				94CAB3DF24EAC63D002AEC94 /* Info.plist */,
+			);
+			path = WKWebViewSetCookiePracticeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94CAB3C224EAC63C002AEC94 /* WKWebViewSetCookiePractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CAB3E224EAC63D002AEC94 /* Build configuration list for PBXNativeTarget "WKWebViewSetCookiePractice" */;
+			buildPhases = (
+				94CAB3BF24EAC63C002AEC94 /* Sources */,
+				94CAB3C024EAC63C002AEC94 /* Frameworks */,
+				94CAB3C124EAC63C002AEC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKWebViewSetCookiePractice;
+			productName = WKWebViewSetCookiePractice;
+			productReference = 94CAB3C324EAC63C002AEC94 /* WKWebViewSetCookiePractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94CAB3D824EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94CAB3E524EAC63D002AEC94 /* Build configuration list for PBXNativeTarget "WKWebViewSetCookiePracticeTests" */;
+			buildPhases = (
+				94CAB3D524EAC63D002AEC94 /* Sources */,
+				94CAB3D624EAC63D002AEC94 /* Frameworks */,
+				94CAB3D724EAC63D002AEC94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94CAB3DB24EAC63D002AEC94 /* PBXTargetDependency */,
+			);
+			name = WKWebViewSetCookiePracticeTests;
+			productName = WKWebViewSetCookiePracticeTests;
+			productReference = 94CAB3D924EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94CAB3BB24EAC63B002AEC94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Hanyu;
+				TargetAttributes = {
+					94CAB3C224EAC63C002AEC94 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					94CAB3D824EAC63D002AEC94 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 94CAB3C224EAC63C002AEC94;
+					};
+				};
+			};
+			buildConfigurationList = 94CAB3BE24EAC63B002AEC94 /* Build configuration list for PBXProject "WKWebViewSetCookiePractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94CAB3BA24EAC63B002AEC94;
+			productRefGroup = 94CAB3C424EAC63C002AEC94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94CAB3C224EAC63C002AEC94 /* WKWebViewSetCookiePractice */,
+				94CAB3D824EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94CAB3C124EAC63C002AEC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CAB3D324EAC63C002AEC94 /* LaunchScreen.storyboard in Resources */,
+				94CAB3D024EAC63C002AEC94 /* Assets.xcassets in Resources */,
+				94CAB3CE24EAC63C002AEC94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CAB3D724EAC63D002AEC94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94CAB3BF24EAC63C002AEC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CAB3CB24EAC63C002AEC94 /* ViewController.swift in Sources */,
+				94CAB3C724EAC63C002AEC94 /* AppDelegate.swift in Sources */,
+				94CAB3C924EAC63C002AEC94 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94CAB3D524EAC63D002AEC94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94CAB3DE24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94CAB3DB24EAC63D002AEC94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94CAB3C224EAC63C002AEC94 /* WKWebViewSetCookiePractice */;
+			targetProxy = 94CAB3DA24EAC63D002AEC94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94CAB3CC24EAC63C002AEC94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CAB3CD24EAC63C002AEC94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94CAB3D124EAC63C002AEC94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94CAB3D224EAC63C002AEC94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94CAB3E024EAC63D002AEC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94CAB3E124EAC63D002AEC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94CAB3E324EAC63D002AEC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LB9NKBAM6;
+				INFOPLIST_FILE = WKWebViewSetCookiePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.WKWebViewSetCookiePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94CAB3E424EAC63D002AEC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LB9NKBAM6;
+				INFOPLIST_FILE = WKWebViewSetCookiePractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.WKWebViewSetCookiePractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94CAB3E624EAC63D002AEC94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LB9NKBAM6;
+				INFOPLIST_FILE = WKWebViewSetCookiePracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.WKWebViewSetCookiePracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewSetCookiePractice.app/WKWebViewSetCookiePractice";
+			};
+			name = Debug;
+		};
+		94CAB3E724EAC63D002AEC94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LB9NKBAM6;
+				INFOPLIST_FILE = WKWebViewSetCookiePracticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanrange.WKWebViewSetCookiePracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WKWebViewSetCookiePractice.app/WKWebViewSetCookiePractice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94CAB3BE24EAC63B002AEC94 /* Build configuration list for PBXProject "WKWebViewSetCookiePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CAB3E024EAC63D002AEC94 /* Debug */,
+				94CAB3E124EAC63D002AEC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CAB3E224EAC63D002AEC94 /* Build configuration list for PBXNativeTarget "WKWebViewSetCookiePractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CAB3E324EAC63D002AEC94 /* Debug */,
+				94CAB3E424EAC63D002AEC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94CAB3E524EAC63D002AEC94 /* Build configuration list for PBXNativeTarget "WKWebViewSetCookiePracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94CAB3E624EAC63D002AEC94 /* Debug */,
+				94CAB3E724EAC63D002AEC94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94CAB3BB24EAC63B002AEC94 /* Project object */;
+}
