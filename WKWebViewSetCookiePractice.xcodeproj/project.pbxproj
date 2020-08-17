@@ -14,6 +14,7 @@
 		94CAB3D024EAC63C002AEC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94CAB3CF24EAC63C002AEC94 /* Assets.xcassets */; };
 		94CAB3D324EAC63C002AEC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94CAB3D124EAC63C002AEC94 /* LaunchScreen.storyboard */; };
 		94CAB3DE24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3DD24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift */; };
+		94CAB3E924EAC7D8002AEC94 /* WKWebView+setAllCookies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAB3E824EAC7D8002AEC94 /* WKWebView+setAllCookies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		94CAB3D924EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKWebViewSetCookiePracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CAB3DD24EAC63D002AEC94 /* WKWebViewSetCookiePracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewSetCookiePracticeTests.swift; sourceTree = "<group>"; };
 		94CAB3DF24EAC63D002AEC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94CAB3E824EAC7D8002AEC94 /* WKWebView+setAllCookies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+setAllCookies.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				94CAB3CF24EAC63C002AEC94 /* Assets.xcassets */,
 				94CAB3D124EAC63C002AEC94 /* LaunchScreen.storyboard */,
 				94CAB3D424EAC63C002AEC94 /* Info.plist */,
+				94CAB3E824EAC7D8002AEC94 /* WKWebView+setAllCookies.swift */,
 			);
 			path = WKWebViewSetCookiePractice;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94CAB3E924EAC7D8002AEC94 /* WKWebView+setAllCookies.swift in Sources */,
 				94CAB3CB24EAC63C002AEC94 /* ViewController.swift in Sources */,
 				94CAB3C724EAC63C002AEC94 /* AppDelegate.swift in Sources */,
 				94CAB3C924EAC63C002AEC94 /* SceneDelegate.swift in Sources */,
