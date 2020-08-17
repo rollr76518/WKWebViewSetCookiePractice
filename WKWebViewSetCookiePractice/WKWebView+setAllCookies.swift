@@ -39,3 +39,6 @@ extension WKWebView {
 		}
 	}
 }
+
+//https://gist.github.com/sodastsai/8d457dcddaac4c6d02514c398a28ebc3
+//https://gist.github.com/sodastsai/bbf6b6b6be7e1ee8e62428f353455986
